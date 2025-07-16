@@ -9,11 +9,11 @@ import tempfile
 st.set_page_config(page_title="Alzheimer's Early Detection", layout="centered")
 
 # App title
-st.title("🧠 Alzheimer’s Early Detection App")
+st.title(" Alzheimer’s Early Detection App")
 st.write("Upload a short voice sample to analyze your speech pattern for early signs of cognitive decline.")
 
 # Upload audio file
-uploaded_file = st.file_uploader("🎤 Upload a voice file (.wav)", type=["wav"])
+uploaded_file = st.file_uploader("Upload a voice file (.wav)", type=["wav"])
 
 # New logic to analyze voice file
 def analyze_audio(file_path):
